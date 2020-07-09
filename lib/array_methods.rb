@@ -3,7 +3,7 @@ require 'pry'
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
 
 def using_include(array, element)
-  array.include?("tardis")
+  array.include?(element)
 end
 
 def using_sort(array)
